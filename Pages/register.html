@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Group-1</title>
+    <style>
+      #heada {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+        color: #648880;
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+        align-items: center;
+        margin: 0;
+        padding: 100px;
+        height: 150px ;
+        background: linear-gradient(to right, #a1d3b0, #f6f1d3);
+        }
+        
+        
+      .gap {
+        margin: 0%;
+
+      }
+      #match {
+        color: #888888;
+        font-size: 25px;
+        display: flex;
+        flex-direction: column;
+        
+      }
+    .close {
+      margin-bottom: 0%;
+      padding: 0%;
+    }
+  
+    form {
+      padding: 0.5rem;
+      font-size: 25px;
+      margin: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      }
+     .three-input {
+      padding: 20px;
+      width: 300px
+      
+     }
+     .diff {
+      padding: 20px;
+      color: black;
+
+     }
+     .faded-color {
+      color: #648880;
+      margin-bottom: 0.5rem;
+     } 
+     h3 {
+      color: #648880;
+     }
+        button {
+           margin-top: 50px;
+  font-size: 15px;
+  border: none;
+  color: white;
+  padding: 25px;
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  background-color: #648880;
+  margin: 0%;
+
+        }
+        #arrenge {
+          display: flex;
+          flex-direction: row;
+          margin: 50px;
+          padding-left: 300px;
+          padding-right: 300px;
+          
+          
+        }
+      
+    </style>
+  </head>
+  <body>
+    <div id="heada">
+      <p id="fon">Register</p>
+      <p class="gap">
+        Every year we aim to have an unbelievable time, and this year we'd love
+        it for you to join us.
+      </p>
+      <p class="gap">
+        Conference passes only cost $99, one of the best values you'll find.
+      </p>
+    </div>
+    <section id="arrenge">
+    <div id="match">
+      <div class="close">
+      <p><h3>Purchase a Conference Pass</h3></p>
+      <p>$99 PER PASS</p>
+      </div>
+
+      <p id="wid">
+        Purchase your Styles Conference pass using the form to the right.
+        Multiple passes may be purchased within the same order, so feel free to
+        bring a friend or two along. Once your order is finished we’ll follow up
+        and provide a receipt for your purchase. See you soon!
+      </p>
+      <div>
+      <p><h3>Why Attend?</h3></p>
+      <ul>
+        <li>Over twenty world-class speakers</li>
+        <li>One full day of workshops and two full days of presentations</li>
+        <li>Hosted at The Chicago Theatre, a historical landmark</li>
+        <li>August in Chicago is simply amazing</li>
+      </ul>
+      </div>
+    </div>
+    <form>
+      <div>
+        <label for="Name" class="faded-color">Name</label><br>
+        <input
+          type="text"
+          name="Name"
+          placeholder="full name"
+          class="three-input"
+          value
+        />
+      </div>
+      <div>
+        <label for="Email" class="faded-color">Email</label><br>
+        <input
+          type="text"
+          name="Email"
+          placeholder="Email addres"
+          class="three-input"
+          value
+        />
+      </div>
+      <div>
+        <label for="Quantity" class="faded-color">Number of passes</label><br>
+        <select name="Quantity" class="diff">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+        </select>
+      </div>
+      <div>
+        <label for="text" class="faded-color">Comment</label><br>
+        <textarea
+          name="text"
+          id
+          cols="30"
+          rows="5"
+          class="three-input"
+          area-valuetext
+        ></textarea>
+      </div>
+      <button type="submit">PURCHASE</button>
+    </form>
+    </section>
+    <!-- <footer>
+      <p>© Styles Conference</p>
+      <div>
+        <p>Home</p>
+        <p>Venue</p>
+        <p>Register</p>
+      </div>
+    </footer> -->
+  </body>
+</html>

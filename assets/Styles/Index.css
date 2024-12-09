@@ -1,0 +1,88 @@
+* {
+  font-family: "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+}
+nav {
+  display: flex;
+  gap: 20px;
+  padding-left: 300px;
+  width: 100%;
+  padding-bottom: 50px;
+  padding-top: 0px;
+  font-size: 10px;
+  color: white;
+}
+.date {
+  display: flex;
+  justify-content: flex-end;
+  color: #648880;
+  margin: 10px;
+}
+h1 {
+  margin: 10px;
+  padding-left: 200px;
+  color: white;
+}
+#dff {
+  font-weight: 500;
+  font-size: 1.9rem;
+  color: #648880;
+}
+#match {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+.center {
+  margin: 10px;
+  font-size: 1.5rem;
+  font-weight: 100;
+  display: flex;
+  justify-content: center;
+}
+#col {
+  min-height: 30rem;
+  border: 1px solid #293f50;
+  background-color: #293f50;
+  margin-bottom: 4rem;
+}
+button {
+  margin-top: 50px;
+  font-size: small;
+  width: 13%;
+  border: 1px solid white;
+  color: white;
+  padding: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-self: center;
+  background-color: #293f50;
+}
+#sss {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+}
+footer {
+  display: flex;
+  padding: 20px;
+  justify-content: space-around;
+  background-color: rgb(41, 63, 80);
+  color: white;
+}
+#foot {
+  display: flex;
+  gap: 20px;
+}
