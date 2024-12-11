@@ -9,7 +9,7 @@ header {
   display: flex;
   flex-direction: row;
   overflow: hidden;
-  rder: 1px solid #293f50;
+  border: 1px solid #293f50;
   background-color: #293f50;
   margin-bottom: 0;
 }
